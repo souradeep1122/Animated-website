@@ -1,0 +1,242 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+   
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    padding: 3vw 10vw;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    letter-spacing: -0.1px;
+   
+    font-size: 1vw;
+    font-weight: 700;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nleft{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+.nmid{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*Hero section*/
+.hero{
+  
+    padding: 0vw 10vw;
+    display: flex;
+    margin-top: 11vw;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.sustain{
+
+   
+    width: 15vw;
+   
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  
+ }
+ .sustain span{
+    font-size: 1.5vw;
+    font-weight: 800;
+ }
+ .sustain p{
+    opacity: 0.7;
+ }
+ .susimg{
+    
+    width: 10vw;
+    
+   
+    object-fit: contain 0.5;
+    
+ }
+ .susimg img{
+    width: 100%;
+    height: 13vw;
+ }
+
+ .equlibrium{
+    position: relative;
+    width: 25vw;
+    
+    
+   
+    
+ }
+ .equiimg {
+    height: 35vw;
+   
+   
+ }
+ .equitext{
+    position: absolute;
+    top: -12%;
+    left: -11%;
+    font-size: 5vw;
+    font-weight: 900;
+    line-height: .8;
+    z-index: 999;
+ }
+ .equiimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+ }
+ .quibotm {
+    width: 50%;
+    font-size: 1.3vw;
+    font-weight: 800;
+    margin-top: 2vw;
+ }
+.visit{
+    font-size: 1.8vw;
+   
+}
+
+/*motive*/
+.motive{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0vw 10vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-top: 10vw;
+  
+
+}
+.txtwrap{
+    width: 60vw;
+  
+    line-height: 2;
+    text-align: end;
+}
+.mothed{
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+.motive span{
+    display: inline-block;
+    align-self: center;
+    
+    text-wrap: wrap;
+    height: 2.5vw;
+   
+    border-radius: 20px;
+    margin: 0px 0.7vw -0.7vw 0.7vw;
+
+}
+.span1{
+    width: 4vw;
+    background-image: url(https://images.unsplash.com/photo-1446071103084-c257b5f70672?q=80&w=2568&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+}
+.span2{
+    width: 5vw;
+    background-image: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+.span3{
+    width: 4vw;
+    background-image: url(https://images.unsplash.com/photo-1534531173927-aeb928d54385?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZydWl0c3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: 0% 200%;
+    
+}
+
+
+/*synergy*/
+.synergy{
+    padding: 0vw 15vw;
+    margin-top: 10vw;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.enrgyleft{
+    width: 15vw;
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+
+}
+
+.waveimg{
+    width: 100%;
+    
+    height: 25vw;
+    
+}
+.waveimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.enrgyright{
+    font-size: 1.2vw;
+    width: 25vw;
+    gap: 1vw;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    
+   
+
+}
+.enrgyright p, .enrgyleft p{
+    font-size: 1.2vw;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+    
+   
+
+
+}
+
+.enrgyright span, .enrgyleft span{
+    font-weight: 800;
+    font-size: 1.7vw;
+    text-transform: capitalize;
+}
+.skyimg{
+    width: 100%;
+    height: 35vw;
+    
+ 
+}
+.skyimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
